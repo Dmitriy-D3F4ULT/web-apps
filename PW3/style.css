@@ -131,6 +131,10 @@ ol {list-style-type: disc;}
 
 .code {
     list-style-type:decimal;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-color: gray darkslategray;
+    scrollbar-width: thin;
 }
 .code li {
     text-indent: 10px;
