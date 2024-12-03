@@ -1,0 +1,277 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+header {
+    background-color: #2b313f;
+    position: absolute;
+    position: fixed;
+    text-align: center; align-content: center;
+    width: 100%; height: 91.05px;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    position: absolute;
+    left: 0.1px; top: 0;
+    background-color: orange;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.hjs {
+    font-family: monospace, Arial, sans-serif;
+    font-size: 44px;
+    color: #626469;
+    margin: 0;
+}
+
+.nav {
+    margin-left: 50px; margin-right: 50px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.drop {
+    background-color:#2b313f;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:#151619;
+    border-width: 1px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.drop_content {
+    display: none;
+    text-align: left;
+    position: absolute;
+    background-color: #313949;
+    min-width: 200px;
+    border-radius: 0 20px 20px 20px;
+}
+  
+.drop_content a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+  
+.drop_content a:hover {background-color: #151619; padding-left: 20px; transition: 0.5s;}
+.first {border-radius: 0 20px 0 0;}
+.final {border-radius: 0 0 20px 20px;}
+.nav:hover .drop_content {display: block;}
+.nav:hover .drop {
+    cursor: pointer;
+    background-color:#313949;
+    border-radius: 20px 20px 0 0;
+}
+.nav:hover .drop .arrow {color: #313949;}
+
+.username {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+body {
+    color: white;
+    background-color: #232529;
+    height: 100%; width: 100%;
+    margin: 91.05px 0 0 0;
+    
+}
+
+.main {
+    padding-left: 20px;
+}
+
+h1 {
+    font: 700 32px / 40px BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+h2{
+    font: 700 22px / 40px BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+}  
+
+h3 {
+    font: 700 18px / 40px BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+} 
+
+p {
+    font: 14px / 20px BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+li {
+    font: 14px / 20px BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+}
+
+pre {
+    margin: 0;
+}
+
+a {color: #427ae7;}
+a:hover {color: orange;}
+
+.blocks {
+    width: 100%; height: auto;
+    position: relative;
+}
+
+ol {list-style-type: disc;}
+
+.code {
+    list-style-type:decimal;
+}
+.code li {
+    text-indent: 10px;
+}
+
+.border {
+    border-style: solid; border-color: grey; border-radius: 10px;
+    li::marker {color: green;};
+}
+
+.finalList {padding-left: 20px;}
+
+.text{
+    width: 45%;
+    display: inline-block;
+}
+
+.test{
+    width: 50%;
+    background-color: darkslategray;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+#t1 {
+    height: 40px; width: 40px;
+    background-color: grey;
+    border-radius: 20px;
+    border-style: none;
+    float: right;
+    margin-top: 5px; margin-right: 5px;
+}
+
+#t1:hover {
+    cursor: pointer;
+    background-color:#626469;
+}
+
+.question_list {
+    margin: 0 20px;
+}
+.question_list span {
+    margin-left: 10px;
+}
+.question_list input {
+    background-color:#313949;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.result {
+    display: none;
+    padding: 30px;
+    text-align: center;
+}
+.result h1 {
+    margin: auto;
+    width: 920px;
+    border: 4px, solid, #151619;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.exam {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.exm {
+    background-color: #2b313f;
+    border-radius: 5px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}
+
+.exm:hover {
+    cursor: pointer;
+    background-color: #151619;
+    transform: scale(0.97);
+    transition: 0.3s;
+}
+
+.ending {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+}
+.end {
+    background-color: #2b313f;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+.end:hover {
+    cursor: pointer;
+    background-color: #151619;
+    transition: 1s;
+}
+
+.close {
+    height: 100%; width: 100%;
+    position: absolute;
+    position: fixed;
+}
+.last_page {
+    height: 100%; width: 100%;
+    background-image: url(triangle.gif);
+    background-size: cover;
+    border: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+    align-content: center;
+    display: none;
+}
+.info {
+    position: absolute;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    background-color: #232529;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+.info span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0 10px;
+}
