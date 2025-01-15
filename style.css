@@ -87,13 +87,14 @@ body {
     color: white;
     background-color: #232529;
     height: 100%; width: 100%;
-    margin: 91.05px 0 0 0;
+    margin: 77px 0 0 0;
     display: grid;
     justify-content: center;
 }
 
 .main {
     width: 1000px;
+    max-width: 90%;
     text-align: justify;
 }
 
@@ -181,9 +182,6 @@ ol {list-style-type: disc;}
     background-color:#626469;
 }
 
-/* .question_list {
-    margin: 0 20px;
-} */
 .question_list span {
     margin-left: 10px;
 }
