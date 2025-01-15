@@ -30,7 +30,7 @@ header {
 }
 
 .nav {
-    margin-left: 50px; margin-right: 50px; 
+    margin-left: 10px; margin-right: 10px; 
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 20px;
     position: relative;
@@ -88,11 +88,13 @@ body {
     background-color: #232529;
     height: 100%; width: 100%;
     margin: 91.05px 0 0 0;
-    
+    display: grid;
+    justify-content: center;
 }
 
 .main {
-    padding-left: 20px;
+    width: 1000px;
+    text-align: justify;
 }
 
 h1 {
@@ -150,6 +152,7 @@ ol {list-style-type: disc;}
 .text{
     width: 45%;
     display: inline-block;
+    margin-right: 20px;
 }
 
 .test{
@@ -178,9 +181,9 @@ ol {list-style-type: disc;}
     background-color:#626469;
 }
 
-.question_list {
+/* .question_list {
     margin: 0 20px;
-}
+} */
 .question_list span {
     margin-left: 10px;
 }
